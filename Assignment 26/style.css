@@ -1,0 +1,38 @@
+.step1
+{
+   display: flex;
+   justify-content: space-around;
+   background-color: lightslategray;
+
+
+
+
+}
+.step3
+{
+    display: flex;
+    justify-content: space-between;
+}
+.Middle
+{
+    display: flex;
+    justify-content: space-around;
+}
+.Middle2
+{
+    display: flex;
+    justify-content: space-around;  
+}
+.firstblock
+{
+    border-style: solid;
+}
+.second2
+{
+    border-style: solid;
+}
+.second1
+{
+    border-style: solid;
+}
+

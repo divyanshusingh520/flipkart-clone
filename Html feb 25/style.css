@@ -1,0 +1,31 @@
+.section
+{
+    text-align: center;
+    margin: 50px;
+    background-image: url("download.jpg");
+    padding: 250px;
+}
+.step3
+{
+  margin: 100px;
+  
+}
+.step4
+{
+
+}
+.step6
+{
+  background-color: red;
+  text-align: center;
+  
+  
+  width 30px;
+  height: 20px;
+
+}
+.Fire
+{
+  background-color: red;
+  display: inline;
+}

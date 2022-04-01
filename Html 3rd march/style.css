@@ -1,0 +1,52 @@
+header
+{
+    /* width: 500px; */
+    /* height: 100px; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: center
+    
+
+    
+}
+.Divyanshu
+{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    
+    
+}
+.inner
+{
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    
+}
+.Singh
+{
+    background-color:purple;
+}
+.yes
+{
+    background-color: yellow
+}
+.head
+{
+    
+    
+    flex-direction: row;
+    
+    
+}
+
+
+
+
+
+
+

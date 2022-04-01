@@ -1,0 +1,166 @@
+html,body{
+    margin: 0;
+    height: 100%;
+    font-family: 'Roboto',sans-serif;
+}
+header{
+    width: 100%;
+}
+#nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+#nav a{
+    margin-right: 15px;
+    font-size: 14px;
+}
+#nav #Sign-in{
+    padding: 8px;
+    background: #4887ef;
+    margin-right: 28px;
+    padding-right: 7px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 13px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}  
+.toplink:hover{
+    text-decoration: underline;
+}
+.toplink{
+    color: #404040;
+    margin-top: 8px;
+}
+#Sign-in:hover{
+    box-shadow: 1px 1px 5px #999;
+}
+#Sign-in{
+    color: #fff;
+}
+#middle{
+    flex-grow: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#middle #Google-logo{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    clear: both;
+}
+.Searchbarcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#search, #voice{
+    position: absolute;
+    margin-top: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search{
+    left: 0;
+    padding-left: 12px;
+}
+#voice{
+    right: 0;
+    padding-right: 12px;
+}
+
+#Searchbar{
+    width: 500px;
+    padding-top: 3px;
+    line-height: 32px;
+    outline: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+    border: 2px solid #d4d4d4;
+}
+#Searchbar:hover{
+    box-shadow: 0 0 10px 2px rgb(231, 231, 231);
+}
+#buttons{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+}
+.button{
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 9px 15px;
+    cursor: pointer;
+    background: rgb(243, 243, 243);
+    border: 2px solid transparent;
+}
+.button:hover{
+    box-shadow: 0 0 2px 1px rgb(184, 184, 184);
+    border: 2px solid #eee;
+}
+#links{
+    display: flex;
+    font-size: 12px;
+    margin-top: 25px;
+}
+#links a{
+    margin-left: 10px;
+    color: #4887ef;
+}
+#links a:hover{
+    text-decoration: underline;
+}
+.footer1{
+    
+    display: flex;
+    padding: 10px 20px;
+    background-color: #ececec;
+    border-top: 1px solid #d4d4d4;
+}
+.foot{
+    font-size: 14px;
+    color: rgb(48, 48, 49);
+}
+.footer1 a{
+    padding-left: 20px;
+}
+.footer1 a:hover{
+    text-decoration: underline;
+}
+.footer{
+    display: flex;
+    padding: 10px 20px;
+    background-color: #ececec;
+    border-top: 1px solid #d4d4d4;
+}
+.footer a{
+    padding-left: 20px;
+}
+.footerl{
+    font-size: 14px;
+    color: rgb(48, 48, 49);
+}
+.footerr{
+    font-size: 14px;
+    margin-left: auto;
+    color: rgb(49, 49, 49);
+}
+.footer a:hover{
+    text-decoration: underline;
+}

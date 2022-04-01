@@ -1,0 +1,41 @@
+body{
+    color: brown;
+}
+
+.first-div{
+    background-color: blue;
+    display: inline;
+}
+.input-1{
+    display: block;
+    background-color: orange;
+}
+.webdev{
+    display: flex;
+    background-color: lightblue;
+    /* horizontal alignment */
+    justify-content: center;
+    height: 200px;
+
+    /* vertical alignment */
+    align-self: center;
+}
+.webdev .div1{
+        margin: 5px;
+        padding: 5px;
+        width: 50px;
+        height: 30px;
+    }
+.webdev .div2{
+    margin: 5px;
+    padding: 5px;
+    width: 50px;
+    height: 20px;
+}
+body{
+    color: red;
+}
+
+.File{
+    display: inline;
+}
