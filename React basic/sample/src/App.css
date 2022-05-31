@@ -1,0 +1,77 @@
+.header{
+  background-color: black;
+  display: flex;
+  height: 600px;
+  /* width: 400px; */
+  justify-content: center;
+  align-items: center;
+ 
+}
+.login {
+  /* background-color: white; */
+  /* height: 200px;
+  width: 800px;
+  
+   */
+   font-size: 20px;
+   
+
+  
+}
+.inner
+{
+  background-color: blue;
+  height: 300px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.sign
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.sign .button
+{
+  height: 500px;
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  font-size: larger;
+
+}
+.form
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.myclass
+{
+  background-color: white;
+  height: 300px;
+  width: 350px;
+}
+.button
+{
+   background-color: red;
+   /* width: px;
+   height: 20px; */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+.top
+{
+  background-color: red;
+  width: 50px;
+  height: 50px;
+}
